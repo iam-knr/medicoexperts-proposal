@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Marketing Proposal — MedicoExperts | Digimark Creative Agency</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--t1:#0d6e62;--t2:#11a08f;--t3:#3dcfbb;--tl:#e6f7f5;--b1:#0a1f2e;--b2:#0f2a3a;--ink:#1a2730;--grey:#506070;--lgrey:#8a9bab;--amber:#e65100;--red:#c62828;--green:#1b5e20;--bdr:#c8ddd8}
+body{background:#ecefec;font-family:'Outfit',-apple-system,sans-serif;font-size:13.5px;line-height:1.8;color:var(--ink)}
+.page{max-width:980px;margin:0 auto;background:#fff;box-shadow:0 4px 48px rgba(0,0,0,.13)}
+.cover{background:#071218;padding:64px 68px 56px;position:relative;overflow:hidden}
+.cover::before{content:'';position:absolute;top:-180px;right:-140px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(17,160,143,.18) 0,transparent 70%);pointer-events:none}
+.cover-top{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2px solid var(--t1);padding-bottom:26px;margin-bottom:58px}
+.agency-name{font-family:'Syne',sans-serif;font-size:25px;font-weight:800;color:var(--t3)}
+.agency-sub{font-size:12px;color:#4a7a6a;margin-top:4px}
+.cover-for .lbl{font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#3a5a4a}
+.cover-for .cli{font-size:20px;font-weight:700;color:var(--t3);margin-top:6px;text-align:right}
+.cover-for .url{font-size:12px;color:#4a7a5a;margin-top:3px;text-align:right}
+.cover-title h1{font-family:'Syne',sans-serif;font-size:48px;font-weight:800;color:#fff;line-height:1.07;letter-spacing:-.5px}
+.cover-title h1 span{color:var(--t3)}
+.cover-title p{font-size:13.5px;color:#506a5a;margin-top:12px}
+.plan-card-cover{background:linear-gradient(135deg,#0d2a1e,#071410);border:1px solid #1a5a3a;border-radius:12px;padding:24px 28px;margin:44px 0 52px}
+.plan-card-cover .tag{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--t3);margin-bottom:7px}
+.plan-card-cover h3{font-family:'Syne',sans-serif;font-size:20px;font-weight:700;color:#fff;margin-bottom:5px}
+.plan-card-cover .sub{font-size:12px;font-style:italic;color:#8ad0b0;margin-bottom:8px}
+.plan-card-cover .det{font-size:12px;color:#5a9a72}
+.cover-footer{display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,.08);padding-top:18px}
+.cover-footer .date{font-size:12px;color:#3a5a4a}
+.cover-footer .conf{font-size:11px;color:#2a3a2a;font-style:italic}
+.doc-header{background:#fff;border-bottom:2px solid var(--t2);padding:13px 68px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
+.dh-left{font-size:11.5px;font-weight:600;color:var(--t1)}
+.dh-right{font-size:11.5px;color:var(--lgrey);font-style:italic}
+.body-wrap{padding:12px 68px 80px}
+.section{padding-top:50px}
+h1.sec{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--t1);border-bottom:2px solid var(--t2);padding-bottom:7px;margin-bottom:14px;margin-top:0}
+h2.sec{font-family:'Syne',sans-serif;font-size:14.5px;font-weight:700;color:var(--t1);margin-bottom:8px;margin-top:20px}
+h3.sec{font-size:13px;font-weight:700;color:var(--t1);margin-bottom:7px;margin-top:16px}
+.bt{font-size:13px;color:var(--grey);margin-bottom:10px;line-height:1.8}
+.tbl-wrap{overflow-x:auto;margin:10px 0 14px;border-radius:8px;border:1px solid var(--bdr)}
+table{width:100%;border-collapse:collapse;font-size:12px}
+thead tr{background:var(--t1);color:#fff}
+thead th{padding:9px 12px;font-weight:600;text-align:left;font-size:11.5px;letter-spacing:.3px}
+tbody tr:nth-child(even){background:#f4faf8}
+tbody tr:hover{background:#eaf6f3}
+tbody td{padding:8px 12px;border-bottom:1px solid #dceee8;vertical-align:top;line-height:1.6}
+.td-bold{font-weight:600;color:var(--ink)}
+.td-muted{color:var(--grey);font-size:11.5px}
+.td-amt{font-weight:700;color:var(--t1);text-align:right;font-size:13.5px;white-space:nowrap}
+.td-total{font-weight:800;color:#fff!important;background:var(--t1)!important;font-size:13.5px;text-align:right}
+.td-total:first-child{text-align:left}
+.td-center{text-align:center}
+.td-red{color:var(--red);font-weight:600}
+.td-green{color:var(--green);font-weight:600}
+.td-amber{color:var(--amber);font-weight:600}
+.bul{margin-left:16px;margin-bottom:10px}
+.bul li{font-size:12.5px;color:var(--grey);margin-bottom:5px;line-height:1.7}
+.bul li strong{color:var(--ink)}
+.callout{border-radius:8px;padding:12px 16px;margin:12px 0;font-size:12.5px;line-height:1.7}
+.callout strong{display:block;margin-bottom:4px;font-size:13px}
+.callout.dark{background:#0d2018;color:#8ad8a8}
+.callout.dark strong{color:var(--t3)}
+.callout.teal{background:var(--tl);color:#0d4a3e;border-left:3px solid var(--t2)}
+.callout.teal strong{color:var(--t1)}
+.callout.amber{background:#fff8e1;color:#5d4037;border-left:3px solid var(--amber)}
+.callout.amber strong{color:var(--amber)}
+.note-box{background:#fff9c4;border:1px solid #f9a825;border-radius:6px;padding:9px 13px;margin:10px 0;font-size:12px;color:#4e342e}
+.note-box strong{color:var(--amber)}
+.audit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.audit-card{border:1px solid var(--bdr);border-radius:10px;padding:16px;text-align:center;background:#fafcfa}
+.audit-score{font-size:38px;font-weight:900;margin-bottom:4px}
+.score-green{color:#1b5e20}
+.score-orange{color:#e65100}
+.score-red{color:#c62828}
+.audit-label{font-size:11.5px;color:var(--grey);font-weight:600}
+.audit-sub{font-size:10.5px;color:#9ca3af;margin-top:2px}
+.stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+.stat-box{background:var(--b1);border-radius:10px;padding:16px;text-align:center}
+.stat-box .sv{font-size:26px;font-weight:800;color:var(--t3)}
+.stat-box .sl{font-size:11px;color:#4a7a6a;margin-top:4px}
+.stat-box .sn{font-size:10px;color:#3a6a5a;margin-top:2px}
+.stat-box.warn .sv{color:#fbbf24}
+.stat-box.bad .sv{color:#f87171}
+.stat-box.up .sv{color:#34d399}
+.geo-row{display:flex;align-items:center;gap:10px;margin:6px 0}
+.geo-flag{font-size:16px;width:24px}
+.geo-country{font-size:12px;font-weight:600;color:var(--ink);width:110px}
+.geo-bar-wrap{flex:1;background:#e8f0ee;height:8px;border-radius:4px;overflow:hidden}
+.geo-bar-fill{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--t1),var(--t3))}
+.geo-pct{font-size:12px;font-weight:700;color:var(--t1);width:42px;text-align:right}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0}
+.why-card{border:1px solid var(--bdr);border-radius:8px;padding:13px 15px;background:#fafcfa}
+.why-card .wc-title{font-weight:700;font-size:13px;color:var(--t1);margin-bottom:4px}
+.why-card .wc-body{font-size:12px;color:var(--grey);line-height:1.65}
+.cro-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}
+.cro-card{border-radius:10px;padding:14px 16px;border-left:4px solid var(--red);background:#fff8f8}
+.cro-card.warn{border-left-color:var(--amber);background:#fffbf0}
+.cro-card.ok{border-left-color:var(--green);background:#f0faf4}
+.cro-card .cc-title{font-size:13px;font-weight:700;color:var(--ink);margin-bottom:4px}
+.cro-card .cc-body{font-size:11.5px;color:var(--grey);line-height:1.6}
+.review-box{background:linear-gradient(135deg,#e8f5e9,#f1f8e9);border:2px solid #a5d6a7;border-radius:14px;padding:26px 30px;margin-top:20px}
+.review-box h2{font-family:'Syne',sans-serif;font-size:16px;font-weight:800;color:var(--t1);margin-bottom:10px}
+.review-box p{font-size:13px;color:#2e7d32;line-height:1.8;margin-bottom:8px}
+.doc-footer{background:#071218;padding:18px 68px;display:flex;justify-content:space-between}
+.doc-footer div{font-size:11px;color:#3a5a4a}
+@media print{.doc-header{position:static!important}}
+@media(max-width:700px){.cover,.body-wrap,.doc-header,.doc-footer{padding-left:22px;padding-right:22px}.audit-grid,.stat-row{grid-template-columns:1fr 1fr}.cro-grid,.why-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="cover">
+<div class="cover-top">
+<div><div class="agency-name">Digimark Creative Agency</div><div class="agency-sub">Performance Marketing • SEO • Paid Ads • Growth</div></div>
+<div class="cover-for"><div class="lbl">Prepared For</div><div class="cli">MedicoExperts</div><div class="url">www.medicoexperts.com</div></div>
+</div>
+<div class="cover-title">
+<h1>Digital Marketing<br><span>Growth Strategy</span><br>Proposal</h1>
+<p>6-Month Engagement  •  SEO & Site Architecture  •  Paid Media  •  Social Media  •  Email & WhatsApp Automation</p>
+</div>
+<div class="plan-card-cover">
+<div class="tag">Engagement Model • Fixed Monthly Retainer</div>
+<h3>Transparent, Predictable Pricing</h3>
+<div class="sub">All Fees Fixed Monthly • Full Cost Predictability • No Commission • No Surprises</div>
+<div class="det">₹88,000/month retainer  •  ₹1,50,000/month ad budget (paid directly to platforms)</div>
+</div>
+<div class="cover-footer">
+<div class="date">July 2026  •  Version 1.0</div>
+<div class="conf">Confidential • For Recipient's Use Only</div>
+</div>
+</div>
+
+<div class="doc-header">
+<div class="dh-left">Digimark Creative Agency  •  Digital Marketing Proposal 2026</div>
+<div class="dh-right">MedicoExperts  •  Confidential</div>
+</div>
+
+<div class="body-wrap">
+
+<div class="section">
+<h1 class="sec">1. Business Brief — MedicoExperts</h1>
+<div class="tbl-wrap"><table><tbody>
+<tr><td class="td-bold" style="width:160px">Industry</td><td>Medical Tourism & Virtual Healthcare — Second Opinion, Surgical Procedures, Alternative Therapies</td></tr>
+<tr><td class="td-bold">Positioning</td><td>Global Virtual Hospital connecting 10,200+ patients from 17 countries with super-specialist doctors across 300 network hospitals</td></tr>
+<tr><td class="td-bold">Service Model</td><td>Affordable premium healthcare with multiple price points, online consultations, surgical coordination across specialties</td></tr>
+<tr><td class="td-bold">Key Specialties</td><td>Oncology, Stem Cell Therapy, Organ Transplantation, Cardiology, Neurology, Gynecology, Weight Loss Surgery, Cosmetic Surgery</td></tr>
+<tr><td class="td-bold">Target Markets</td><td>India (27.6%), UK (17.7%), USA (17%), Nigeria (11.7%), Philippines (10%) — international patients seeking quality + affordability</td></tr>
+<tr><td class="td-bold">Unique Value</td><td>NABH-accredited, 95% patient satisfaction, 5-25% cost savings vs traditional routes, empanelled with Nanavati, Fortis, Apollo, Jaslok</td></tr>
+</tbody></table></div>
+</div>
+
+<div class="section">
+<h1 class="sec">2. Current Digital Presence — Traffic & Performance Audit</h1>
+
+<h2 class="sec">A. Website Traffic Analysis (SimilarWeb Data)</h2>
+<div class="stat-row">
+<div class="stat-box up"><div class="sv">8.1K</div><div class="sl">Monthly Visits</div><div class="sn">+58.47% growth</div></div>
+<div class="stat-box bad"><div class="sv">48.62%</div><div class="sl">Bounce Rate</div><div class="sn">Very poor engagement</div></div>
+<div class="stat-box bad"><div class="sv">1.59</div><div class="sl">Pages/Visit</div><div class="sn">Below industry avg</div></div>
+<div class="stat-box bad"><div class="sv">25 sec</div><div class="sl">Avg Duration</div><div class="sn">Critically low</div></div>
+</div>
+
+<h3 class="sec">Global & India Rankings</h3>
+<div class="tbl-wrap"><table><tbody>
+<tr><td class="td-bold" style="width:140px">Global Rank</td><td class="td-muted">#1,206,564 (↑ 560,996 positions)</td></tr>
+<tr><td class="td-bold">India Rank</td><td class="td-muted">#145,006 (↑ 81,732 positions)</td></tr>
+<tr><td class="td-bold">Category Rank</td><td class="td-muted">#1,387 in Health > Health - Other (in India) — (↑ 795 positions)</td></tr>
+</tbody></table></div>
+
+<h3 class="sec">Top Traffic Sources</h3>
+<p class="bt">The site currently receives traffic primarily through <strong>Display ads (1st)</strong>, <strong>Direct visits (2nd)</strong>, and <strong>Email (3rd)</strong>. Notable gaps: <span class="td-red">zero visible paid search activity</span> and <span class="td-red">minimal organic search presence</span> despite having 861 organic keywords.</p>
+
+<h3 class="sec">Geographic Distribution</h3>
+<div class="geo-row"><span class="geo-flag">🇮🇳</span><span class="geo-country">India</span><div class="geo-bar-wrap"><div class="geo-bar-fill" style="width:27.6%"></div></div><span class="geo-pct">27.6%</span></div>
+<div class="geo-row"><span class="geo-flag">🇬🇧</span><span class="geo-country">United Kingdom</span><div class="geo-bar-wrap"><div class="geo-bar-fill" style="width:17.7%"></div></div><span class="geo-pct">17.7%</span></div>
+<div class="geo-row"><span class="geo-flag">🇺🇸</span><span class="geo-country">United States</span><div class="geo-bar-wrap"><div class="geo-bar-fill" style="width:17%"></div></div><span class="geo-pct">17.0%</span></div>
+<div class="geo-row"><span class="geo-flag">🇳🇬</span><span class="geo-country">Nigeria</span><div class="geo-bar-wrap"><div class="geo-bar-fill" style="width:11.7%"></div></div><span class="geo-pct">11.7%</span></div>
+<div class="geo-row"><span class="geo-flag">🇵🇭</span><span class="geo-country">Philippines</span><div class="geo-bar-wrap"><div class="geo-bar-fill" style="width:10%"></div></div><span class="geo-pct">10.0%</span></div>
+
+<h2 class="sec">B. PageSpeed Insights — Performance Audit</h2>
+
+<h3 class="sec">Desktop Performance</h3>
+<div class="audit-grid">
+<div class="audit-card"><div class="audit-score score-green">100</div><div class="audit-label">Performance</div></div>
+<div class="audit-card"><div class="audit-score score-orange">86</div><div class="audit-label">Accessibility</div><div class="audit-sub">Needs improvement</div></div>
+<div class="audit-card"><div class="audit-score score-green">100</div><div class="audit-label">Best Practices</div></div>
+<div class="audit-card"><div class="audit-score score-green">100</div><div class="audit-label">SEO</div></div>
+</div>
+
+<h3 class="sec">Mobile Performance</h3>
+<div class="audit-grid">
+<div class="audit-card"><div class="audit-score score-green">95</div><div class="audit-label">Performance</div></div>
+<div class="audit-card"><div class="audit-score score-orange">81</div><div class="audit-label">Accessibility</div><div class="audit-sub">Needs improvement</div></div>
+<div class="audit-card"><div class="audit-score score-green">100</div><div class="audit-label">Best Practices</div></div>
+<div class="audit-card"><div class="audit-score score-green">100</div><div class="audit-label">SEO</div></div>
+</div>
+
+<div class="callout amber">
+<strong>⚠️ Core Web Vitals Assessment: FAILED</strong>
+The mobile experience fails Google's Core Web Vitals thresholds. Key issues: LCP 4.2s (target <2.5s), FCP 3.8s (target <1.8s), TTFB 2.5s (target <0.8s). These metrics directly impact search rankings and user experience.
+</div>
+
+<h3 class="sec">Critical Technical Issues Identified</h3>
+<div class="cro-grid">
+<div class="cro-card"><div class="cc-title">⚠️ No Image Dimensions</div><div class="cc-body">Images lack explicit width/height attributes causing layout shifts (CLS issues) during page load</div></div>
+<div class="cro-card"><div class="cc-title">⚠️ Long Main Thread Tasks</div><div class="cc-body">2 long tasks detected blocking the main thread, delaying interactivity</div></div>
+<div class="cro-card warn"><div class="cc-title">⚙️ Unused CSS (82 KiB)</div><div class="cc-body">Significant amount of unused CSS shipped to browsers, slowing initial load</div></div>
+<div class="cro-card"><div class="cc-title">⚠️ Poor Color Contrast</div><div class="cc-body">Multiple UI elements fail WCAG contrast ratios, affecting readability and accessibility scores</div></div>
+<div class="cro-card"><div class="cc-title">⚠️ Non-Sequential Headings</div><div class="cc-body">Heading structure not following proper hierarchy (h1→h2→h3), hurting SEO and screen readers</div></div>
+<div class="cro-card warn"><div class="cc-title">⚙️ Links Without Names</div><div class="cc-body">Some interactive elements lack accessible labels for assistive technologies</div></div>
+</div>
+
+<h2 class="sec">C. Competitor Landscape</h2>
+<div class="tbl-wrap"><table>
+<thead><tr><th>Competitor</th><th>Global Rank</th><th>Similarity</th><th>Category</th><th>Key Insight</th></tr></thead>
+<tbody>
+<tr><td class="td-bold">mediglobus.com</td><td class="td-green">#3,858</td><td>100%</td><td>Health > Medicine</td><td>Market leader — 300× better rank</td></tr>
+<tr><td class="td-bold">medicaldepartures.com</td><td class="td-amber">#13,880</td><td>97%</td><td>Health > Health - Other</td><td>Strong SEO and content strategy</td></tr>
+<tr><td class="td-bold">mymeditravel.com</td><td class="td-amber">#10,727</td><td>93%</td><td>Health > Health - Other</td><td>Better organic visibility</td></tr>
+<tr><td class="td-bold">getwellgo.com</td><td class="td-muted">N/A</td><td>89%</td><td>N/A</td><td>Emerging competitor</td></tr>
+</tbody></table></div>
+
+<div class="callout teal">
+<strong>Competitive Gap Analysis</strong>
+Top competitors rank 100-300× better globally. Primary differentiators: comprehensive individual treatment pages, robust SEO content strategies, active paid search campaigns, and stronger backlink profiles. MedicoExperts has the clinical credibility (NABH, 10K+ patients) but lacks the digital visibility to compete effectively.
+</div>
+
+</div>
+<div class="section">
+<h1 class="sec">3. Strategic Gaps & Opportunities</h1>
+
+<h2 class="sec">A. Website Architecture & Content Gaps</h2>
+<p class="bt">The current site structure is <strong>specialty-driven</strong> but lacks <strong>individual treatment/procedure pages</strong> that patients actively search for. This creates a massive SEO opportunity gap.</p>
+
+<div class="callout teal">
+<strong>Recommended Site Architecture Enhancement</strong>
+Create dedicated landing pages for high-intent search queries. Examples: "Kidney Transplant Cost in India", "Best Hospital for Proton Therapy Mumbai", "CAR-T Cell Therapy Price India", "Stem Cell Treatment for Autism Cost". Each page should include: treatment overview, procedure details, cost breakdown, hospital options, doctor profiles, patient testimonials, and clear CTA.
+</div>
+
+<h3 class="sec">Priority Pages to Create (First 90 Days)</h3>
+<div class="tbl-wrap"><table>
+<thead><tr><th style="width:200px">Treatment/Service</th><th>Search Intent</th><th>Monthly Search Vol (Est)</th><th>Competition</th></tr></thead>
+<tbody>
+<tr><td class="td-bold">Kidney Transplant India</td><td class="td-muted">Cost, best hospitals, success rate</td><td class="td-center">1,200+</td><td class="td-amber">Medium</td></tr>
+<tr><td class="td-bold">Proton Therapy India</td><td class="td-muted">Cancer treatment, cost, hospitals</td><td class="td-center">800+</td><td class="td-green">Low</td></tr>
+<tr><td class="td-bold">CAR-T Cell Therapy</td><td class="td-muted">Price, eligibility, hospitals</td><td class="td-center">500+</td><td class="td-green">Low</td></tr>
+<tr><td class="td-bold">Bone Marrow Transplant Cost</td><td class="td-muted">Procedure cost, success rate</td><td class="td-center">900+</td><td class="td-amber">Medium</td></tr>
+<tr><td class="td-bold">Robotic Surgery India</td><td class="td-muted">Types, hospitals, cost comparison</td><td class="td-center">1,500+</td><td class="td-amber">Medium</td></tr>
+<tr><td class="td-bold">Heart Valve Replacement</td><td class="td-muted">Procedure, recovery, cost</td><td class="td-center">700+</td><td class="td-amber">Medium</td></tr>
+<tr><td class="td-bold">Stem Cell Autism Treatment</td><td class="td-muted">Success rate, cost, reviews</td><td class="td-center">600+</td><td class="td-green">Low</td></tr>
+<tr><td class="td-bold">IVF Treatment Cost India</td><td class="td-muted">Success rate, clinics, packages</td><td class="td-center">2,200+</td><td class="td-red">High</td></tr>
+</tbody></table></div>
+
+<h2 class="sec">B. CRO & User Experience Issues</h2>
+<div class="cro-grid">
+<div class="cro-card"><div class="cc-title">❌ High Bounce Rate (48.62%)</div><div class="cc-body">Users leave without exploring. Likely causes: unclear value prop on landing, slow load times, poor mobile UX</div></div>
+<div class="cro-card"><div class="cc-title">❌ Low Pages/Visit (1.59)</div><div class="cc-body">Visitors aren't exploring services. Navigation needs improvement, internal linking weak</div></div>
+<div class="cro-card"><div class="cc-title">❌ 25-Second Avg Duration</div><div class="cc-body">Critically low — indicates users aren't finding what they need quickly</div></div>
+<div class="cro-card warn"><div class="cc-title">⚙️ No Clear Lead Magnets</div><div class="cc-body">Missing: free consultation CTA, cost calculator, treatment comparison tool, downloadable guides</div></div>
+<div class="cro-card warn"><div class="cc-title">⚙️ WhatsApp CTA Overload</div><div class="cc-body">Persistent WhatsApp button good, but needs complementary form-based CTAs for users who prefer email/phone</div></div>
+<div class="cro-card ok"><div class="cc-title">✅ Trust Signals Present</div><div class="cc-body">NABH badge, 95% satisfaction, 10K+ patients, hospital logos — strong foundation to build on</div></div>
+</div>
+
+<h2 class="sec">C. SEO Opportunities</h2>
+<ul class="bul">
+><strong>861 Organic Keywords Ranking:</strong> Site has keyword footprint but most rank beyond page 3 (invisible). Opportunity to optimize existing pages and create new targeted content.</li>
+><strong>Zero Paid Keywords Visible:</strong> No active Google Ads detected despite high-intent searches in medical tourism space. Competitors dominate paid results.</li>
+><strong>Backlink Profile Weak:</strong> Needs strategic PR placements, guest posts on health/medical authority sites, and directory listings (Practo, Lybrate, medical tourism portals).</li>
+><strong>Local SEO Untapped:</strong> Google Business Profile exists but needs optimization for "medical tourism Mumbai", "second opinion hospital India", etc.</li>
+><strong>Content Marketing Gap:</strong> Blog exists but lacks consistent publishing cadence, depth, and keyword targeting. Needs 4-6 SEO-optimized articles/month.</li>
+</ul>
+
+</div>
+
+<div class="section">
+<h1 class="sec">4. Digital Marketing Strategy — 6-Month Roadmap</h1>
+
+<h2 class="sec">A. SEO Strategy</h2>
+
+<h3 class="sec">Month 1-2: Foundation & Quick Wins</h3>
+<ul class="bul">
+><strong>Technical SEO Audit & Fixes:</strong> Resolve Core Web Vitals failures (image dimensions, CSS optimization, TTFB improvement), fix heading hierarchy, improve color contrast for accessibility.</li>
+><strong>On-Page SEO:</strong> Optimize existing 60+ service pages with proper title tags, meta descriptions, H1/H2 structure, internal linking, and schema markup (MedicalProcedure, Hospital, Physician).</li>
+><strong>Keyword Research:</strong> Identify 200+ high-intent keywords across all specialties, map to existing/new pages, prioritize by search volume + competition.</li>
+><strong>Google Business Profile:</strong> Optimize profile, add posts, Q&A, photos, respond to reviews, setup service area targeting for medical tourism.</li>
+><strong>Quick Content Wins:</strong> Publish 4 blog posts targeting long-tail keywords (e.g., "How much does kidney transplant cost in India", "Best hospitals for CAR-T therapy").</li>
+</ul>
+
+<h3 class="sec">Month 3-4: Content Expansion & Authority Building</h3>
+<ul class="bul">
+><strong>Treatment Landing Pages:</strong> Create 12-15 high-priority treatment pages (kidney transplant, proton therapy, CAR-T, robotic surgery, IVF, heart valve, stem cell autism, etc.) with comprehensive content (1500-2000 words each).</li>
+><strong>Hospital/Doctor Pages:</strong> Enhance individual hospital and doctor profile pages with detailed credentials, specializations, patient reviews, awards.</li>
+><strong>Guest Posting & PR:</strong> Secure 4-6 high-authority backlinks from health/medical sites (target: DA 50+). Pitch stories to Tier 2 media (YourStory, Inc42, HealthcarRadius).</li>
+><strong>Directory Listings:</strong> Submit to medical tourism directories (Medical Tourism Association, Patients Beyond Borders, IMTJ), healthcare platforms (Practo, Lybrate), business directories (Clutch, GoodFirms).</li>
+><strong>Blog Content:</strong> Publish 6 SEO-optimized articles/month covering patient stories, treatment comparisons, cost breakdowns, medical tourism guides.</li>
+</ul>
+
+<h3 class="sec">Month 5-6: Scale & Dominate</h3>
+<ul class="bul">
+><strong>Advanced Content:</strong> Create pillar pages for major specialties (e.g., "Complete Guide to Cancer Treatment in India", "Organ Transplantation in India: Everything You Need to Know").</li>
+><strong>Video SEO:</strong> Optimize YouTube channel, create 10-15 patient testimonial videos, doctor introduction videos, procedure explainer videos, embed on website with proper schema.</li>
+><strong>Featured Snippets:</strong> Target "People Also Ask" questions, create FAQ pages optimized for featured snippet capture.</li>
+><strong>Media Coverage:</strong> Pitch feature stories to Hindustan Times, Economic Times, Times of India health sections. Target: 2-3 Tier 1 media mentions.</li>
+><strong>Content Refresh:</strong> Update top 20 pages with fresh stats, new patient testimonials, updated pricing, improved visuals.</li>
+</ul>
+
+<div class="callout dark">
+<strong>Expected SEO Outcomes (6 Months)</strong>
+Organic traffic increase of 150-200%, 40-50 keywords ranking in top 10, 100+ keywords in top 3 pages, Domain Authority improvement from current level to 35-40, 20-30 high-quality backlinks acquired, improved Core Web Vitals passing threshold.
+</div>
+
+<h2 class="sec">B. Website Architecture Improvements</h2>
+
+<h3 class="sec">Recommended New Page Structure</h3>
+<div class="tbl-wrap"><table>
+<thead><tr><th style="width:180px">Page Type</th><th>Purpose</th><th>Priority</th><th>Quantity</th></tr></thead>
+<tbody>
+<tr><td class="td-bold">Treatment Landing Pages</td><td class="td-muted">Target high-intent search queries (e.g., "Kidney Transplant Cost India")</td><td class="td-red">Critical</td><td class="td-center">15-20</td></tr>
+<tr><td class="td-bold">Hospital Detail Pages</td><td class="td-muted">Individual pages for each partner hospital with facilities, specialties, success rates</td><td class="td-amber">High</td><td class="td-center">10</td></tr>
+<tr><td class="td-bold">Doctor Profile Pages</td><td class="td-muted">Detailed profiles for key doctors with credentials, experience, patient reviews</td><td class="td-amber">High</td><td class="td-center">20-25</td></tr>
+<tr><td class="td-bold">Cost Comparison Pages</td><td class="td-muted">Treatment cost comparisons (India vs US/UK/UAE) for transparency</td><td class="td-amber">High</td><td class="td-center">8-10</td></tr>
+<tr><td class="td-bold">Patient Journey Pages</td><td class="td-muted">Step-by-step guides for international patients (visa, travel, accommodation, post-op)</td><td class="td-green">Medium</td><td class="td-center">5</td></tr>
+<tr><td class="td-bold">FAQ Pages</td><td class="td-muted">Comprehensive FAQs by specialty optimized for featured snippets</td><td class="td-green">Medium</td><td class="td-center">10</td></tr>
+</tbody></table></div>
+
+<h2 class="sec">C. Paid Advertising Strategy</h2>
+
+<p class="bt">Medical tourism is a high-consideration, high-value decision. Paid advertising ensures MedicoExperts stays visible to active searchers across the buyer journey — from awareness (social) to consideration (retargeting) to decision (search).</p>
+
+<h3 class="sec">Recommended Monthly Ad Budget: ₹1,50,000</h3>
+<div class="tbl-wrap"><table>
+<thead><tr><th style="width:150px">Platform</th><th>Role in Strategy</th><th>Targeting</th><th style="text-align:right">Monthly Budget</th></tr></thead>
+<tbody>
+<tr><td class="td-bold">Google Search Ads</td><td class="td-muted">Capture high-intent searchers actively looking for treatments</td><td class="td-muted">Keywords: "kidney transplant India", "proton therapy cost", "best hospital for cancer India"</td><td class="td-amt">₹65,000</td></tr>
+<tr><td class="td-bold">Facebook + Instagram</td><td class="td-muted">Brand awareness, patient testimonial amplification, retargeting website visitors</td><td class="td-muted">Demographics: 30-60 age, HHI 10L+, health-conscious, expats, medical tourism interest</td><td class="td-amt">₹55,000</td></tr>
+<tr><td class="td-bold">LinkedIn Ads</td><td class="td-muted">Reach decision-makers, corporate health managers, insurance companies, medical facilitators</td><td class="td-muted">Job titles: Health Manager, Corporate Benefits, Insurance, Medical Tourism Agents</td><td class="td-amt">₹30,000</td></tr>
+<tr><td class="td-total" colspan="3">Total Monthly Ad Budget (Paid Directly to Platforms)</td><td class="td-total">₹1,50,000</td></tr>
+</tbody></table></div>
+
+<div class="note-box">
+<strong>Note:</strong> All ad budgets are paid directly by MedicoExperts to Google, Meta, and LinkedIn. Digimark Creative Agency does not handle ad spend — we manage campaigns, optimize, and report. This ensures full transparency and no commission markup.
+</div>
+
+<h3 class="sec">Google Search Ads Strategy (₹65,000/month)</h3>
+<ul class="bul">
+><strong>Campaign 1 — High-Intent Treatment Searches:</strong> Target specific procedure searches (e.g., "kidney transplant cost India", "CAR-T therapy Mumbai", "robotic surgery hospital India"). CPC: ₹50-150. Est. 400-800 clicks/month.</li>
+><strong>Campaign 2 — Specialty Searches:</strong> Target broader specialty terms (e.g., "best oncologist India", "organ transplant hospital", "stem cell therapy autism"). CPC: ₹30-80. Est. 600-1000 clicks/month.</li>
+><strong>Campaign 3 — Competitor Targeting:</strong> Target competitor brand names + "alternative", "vs", "comparison" (e.g., "mediglobus alternative", "cheaper than medicaldepartures"). CPC: ₹40-100. Est. 300-500 clicks/month.</li>
+><strong>Remarketing:</strong> Retarget website visitors who viewed treatment pages but didn't convert. CPC: ₹20-50. Est. 500-700 clicks/month.</li>
+</ul>
+
+<h3 class="sec">Facebook + Instagram Ads Strategy (₹55,000/month)</h3>
+<ul class="bul">
+><strong>Campaign 1 — Patient Testimonial Videos:</strong> Promote success stories, before/after transformations, doctor interviews. Objective: Brand awareness + engagement.</li>
+><strong>Campaign 2 — Treatment Awareness:</strong> Educate audience on lesser-known treatments (CAR-T, proton therapy, stem cell). Objective: Traffic to blog/landing pages.</li>
+><strong>Campaign 3 — Lead Generation:</strong> "Free Second Opinion" offer with lead form. Objective: Collect qualified leads directly on platform.</li>
+><strong>Campaign 4 — Website Retargeting:</strong> Retarget visitors with carousel ads showing hospital credentials, patient stats, NABH badge. Objective: Conversions.</li>
+</ul>
+
+<h3 class="sec">LinkedIn Ads Strategy (₹30,000/month)</h3>
+<ul class="bul">
+><strong>Campaign 1 — B2B Medical Tourism:</strong> Target medical facilitators, travel agencies, insurance companies with whitepapers, case studies.</li>
+><strong>Campaign 2 — Corporate Wellness:</strong> Reach HR/benefits managers with content on employee healthcare packages, medical tourism benefits.</li>
+><strong>Campaign 3 — Thought Leadership:</strong> Promote doctor articles, hospital achievements, NABH accreditation to build authority.</li>
+</ul>
+
+<h2 class="sec">D. Social Media Management</h2>
+
+<div class="tbl-wrap"><table>
+<thead><tr><th style="width:120px">Platform</th><th>Posting Cadence</th><th>Content Focus</th><th>Goal</th></tr></thead>
+<tbody>
+<tr><td class="td-bold">Instagram</td><td class="td-muted">4-5 posts/week<br>Daily Stories<br>6-8 Reels/month</td><td class="td-muted">Patient success stories, doctor spotlights, behind-the-scenes hospital tours, treatment explainers, medical facts</td><td class="td-muted">Brand awareness, community building, 5K followers in 6 months</td></tr>
+<tr><td class="td-bold">LinkedIn</td><td class="td-muted">5-6 posts/week<br>2 articles/month</td><td class="td-muted">Thought leadership, medical tourism trends, hospital partnerships, doctor achievements, patient case studies</td><td class="td-muted">Authority building, B2B partnerships, 3K followers in 6 months</td></tr>
+<tr><td class="td-bold">Facebook</td><td class="td-muted">3-4 posts/week</td><td class="td-muted">Patient testimonials, hospital updates, health tips, treatment awareness, event announcements</td><td class="td-muted">Community engagement, traffic to website, 10K followers in 6 months</td></tr>
+<tr><td class="td-bold">YouTube</td><td class="td-muted">As provided by client</td><td class="td-muted">Video SEO optimization — titles, descriptions, tags, thumbnails, playlists, end screens</td><td class="td-muted">Organic discovery, searchable video portfolio, 2K subscribers in 6 months</td></tr>
+</tbody></table></div>
+
+<div class="callout dark">
+<strong>Content Creation Division</strong>
+MedicoExperts provides all creative assets (photos, videos, patient testimonials, doctor content). Digimark Creative Agency handles: caption writing, hashtag strategy, posting schedule, community management, engagement tracking, and platform-specific formatting.
+</div>
+
+<h2 class="sec">E. Email & WhatsApp Automation</h2>
+
+<h3 class="sec">WhatsApp Automation (via AiSensy)</h3>
+<p class="bt">Automated WhatsApp sequences ensure <strong>instant follow-up</strong> for every lead — critical in high-consideration healthcare decisions where speed-to-response determines conversion.</p>
+
+<div class="tbl-wrap"><table>
+<thead><tr><th style="width:130px">Trigger</th><th>Message</th><th>Timing</th></tr></thead>
+<tbody>
+<tr><td class="td-bold">Lead Submitted</td><td class="td-muted">Hi [Name], thank you for reaching out to MedicoExperts! Our team will call you within 15 minutes. Meanwhile, explore our services: [Link]</td><td class="td-green">Instantly</td></tr>
+<tr><td class="td-bold">Missed Call</td><td class="td-muted">Hi [Name], we tried reaching you but couldn't connect. Reply here anytime or pick a convenient time: [Calendar Link]</td><td class="td-amber">2 hours after</td></tr>
+<tr><td class="td-bold">Day 3 Follow-up</td><td class="td-muted">Hi [Name], sharing a relevant case study for [Treatment Interest]: [Link]. Would you like to schedule a 15-min consultation this week?</td><td class="td-amber">Day 3, 10 AM</td></tr>
+<tr><td class="td-bold">Day 7 Re-engage</td><td class="td-muted">Hi [Name], just checking in. Our team is ready to discuss your [Treatment] options. Can we connect briefly this week?</td><td class="td-amber">Day 7, 11 AM</td></tr>
+</tbody></table></div>
+
+<div class="callout teal">
+<strong>Tool: AiSensy</strong>
+Subscription and WhatsApp message credits paid directly by MedicoExperts. Digimark Creative Agency service fee for setup, flow design, and ongoing management: <strong>₹10,000/month</strong>.
+</div>
+
+<h3 class="sec">Email Marketing (via Brevo)</h3>
+<p class="bt">5-email nurture sequence for leads who submit inquiry forms but aren't immediately ready to book. Educates, builds trust, and keeps MedicoExperts top-of-mind.</p>
+
+<div class="tbl-wrap"><table>
+<thead><tr><th style="width:100px">Email</th><th>Subject</th><th>Content</th><th>Timing</th></tr></thead>
+<tbody>
+<tr><td class="td-bold">Email 1</td><td class="td-muted">Your healthcare journey starts here</td><td class="td-muted">Welcome message, portfolio of services, patient success stats, what makes MedicoExperts different</td><td class="td-green">Immediately</td></tr>
+<tr><td class="td-bold">Email 2</td><td class="td-muted">How [Industry] companies use MedicoExperts</td><td class="td-muted">2-3 case studies relevant to user's treatment interest, before/after outcomes, cost savings achieved</td><td class="td-amber">Day 3</td></tr>
+<tr><td class="td-bold">Email 3</td><td class="td-muted">Why 78% of patients prefer second opinions before deciding</td><td class="td-muted">Industry insights, importance of second opinions, soft CTA for free consultation</td><td class="td-amber">Day 7</td></tr>
+<tr><td class="td-bold">Email 4</td><td class="td-muted">Free 30-min treatment consultation — no obligations</td><td class="td-muted">Low-friction offer, calendar booking link, highlight NABH accreditation and 95% satisfaction rate</td><td class="td-amber">Day 14</td></tr>
+<tr><td class="td-bold">Email 5</td><td class="td-muted">Should I close this inquiry for now?</td><td class="td-muted">Permission-based re-engagement, option to stay subscribed or unsubscribe, final opportunity to book consultation</td><td class="td-amber">Day 21</td></tr>
+</tbody></table></div>
+
+<div class="callout teal">
+<strong>Tool: Brevo (formerly Sendinblue)</strong>
+Subscription paid directly by MedicoExperts. Digimark Creative Agency service fee for email design, copywriting, automation setup, and campaign management: <strong>₹8,000/month</strong>.
+</div>
+
+</div>
+<div class="section">
+<h1 class="sec">5. Commercial Terms & Pricing</h1>
+
+<div class="callout dark">
+<strong>Fixed Monthly Retainer Model — Full Transparency</strong>
+Every service is billed at a fixed monthly rate. There are no commissions, no variable charges, and no surprises. Digimark Creative Agency earns the same fee every month — you know exactly what you're paying for. Ad budgets are paid directly by MedicoExperts to Meta, Google, and LinkedIn, never through the agency.
+</div>
+
+<h2 class="sec">A. Monthly Retainer — All Services Included</h2>
+<div class="tbl-wrap"><table>
+<thead><tr><th style="text-align:left">Service</th><th>Scope</th><th style="text-align:right">Monthly Fee</th></tr></thead>
+<tbody>
+<tr><td class="td-bold">SEO Services</td><td class="td-muted">On-page optimization, technical SEO fixes, keyword research, content strategy, backlink building, local SEO, monthly reporting</td><td class="td-amt">₹30,000</td></tr>
+<tr><td class="td-bold">Content Creation & Blog</td><td class="td-muted">4-6 SEO-optimized blog posts/month (1500-2000 words each), treatment landing page copywriting, meta descriptions, FAQ content</td><td class="td-amt">₹18,000</td></tr>
+<tr><td class="td-bold">Social Media Management</td><td class="td-muted">Instagram, Facebook, LinkedIn, YouTube optimization — posting, captions, hashtags, community management, engagement tracking</td><td class="td-amt">₹15,000</td></tr>
+<tr><td class="td-bold">Paid Ads Management</td><td class="td-muted">Google Search, Facebook/Instagram, LinkedIn campaign setup, creative testing, A/B testing, bid optimization, weekly & monthly reporting</td><td class="td-amt">₹15,000</td></tr>
+<tr><td class="td-bold">WhatsApp Automation (AiSensy)</td><td class="td-muted">Chatbot flow design, automation sequences, lead nurture workflows, integration with CRM (tool subscription paid by client)</td><td class="td-amt">₹10,000</td></tr>
+<tr><td class="td-bold">Email Marketing (Brevo)</td><td class="td-muted">5-email nurture sequence, campaign design, copywriting, automation setup, list management (tool subscription paid by client)</td><td class="td-amt">₹8,000</td></tr>
+<tr><td class="td-total">Total Monthly Retainer (All Services)</td><td class="td-total"></td><td class="td-total">₹96,000</td></tr>
+</tbody></table></div>
+
+<div class="note-box">
+<strong>Special Launch Offer:</strong> For the first 6-month engagement, the monthly retainer is fixed at <strong>₹88,000/month</strong> (saving ₹8,000/month). This promotional rate locks in for the entire 6-month period.
+</div>
+
+<h2 class="sec">B. Recommended Ad Budgets (Paid Directly to Platforms)</h2>
+<div class="tbl-wrap"><table>
+<thead><tr><th style="text-align:left">Platform</th><th>Purpose</th><th style="text-align:right">Recommended Monthly Budget</th></tr></thead>
+<tbody>
+<tr><td class="td-bold">Google Search Ads<br><span class="td-muted">Paid to Google</span></td><td class="td-muted">Capture high-intent searchers actively looking for treatments (kidney transplant, proton therapy, CAR-T, etc.)</td><td class="td-amt">₹65,000</td></tr>
+<tr><td class="td-bold">Facebook + Instagram Ads<br><span class="td-muted">Paid to Meta</span></td><td class="td-muted">Brand awareness, patient testimonial amplification, retargeting, lead generation via platform forms</td><td class="td-amt">₹55,000</td></tr>
+<tr><td class="td-bold">LinkedIn Ads<br><span class="td-muted">Paid to LinkedIn</span></td><td class="td-muted">Reach B2B decision-makers, medical facilitators, corporate health managers, insurance companies</td><td class="td-amt">₹30,000</td></tr>
+<tr><td class="td-total">Total Monthly Ad Budget</td><td class="td-total"></td><td class="td-total">₹1,50,000</td></tr>
+</tbody></table></div>
+
+<div class="callout amber">
+<strong>Ad Budget Clarification</strong>
+The ₹1,50,000 monthly ad budget is <strong>paid directly by MedicoExperts</strong> to Google, Meta, and LinkedIn platforms. Digimark Creative Agency does not handle this money. We receive only the ₹15,000 monthly management fee for campaign strategy, setup, optimization, and reporting. This ensures 100% transparency — you see every rupee spent, directly on your platform dashboards.
+</div>
+
+<h2 class="sec">C. Additional Tool Subscriptions (Paid Directly by Client)</h2>
+<div class="tbl-wrap"><table>
+<thead><tr><th style="width:160px">Tool</th><th>Purpose</th><th>Provider</th><th style="text-align:right">Est. Monthly Cost</th></tr></thead>
+<tbody>
+<tr><td class="td-bold">AiSensy</td><td class="td-muted">WhatsApp Business API, chatbot automation, message credits</td><td class="td-muted">AiSensy.com</td><td class="td-amt">₹3,000 - ₹5,000</td></tr>
+<tr><td class="td-bold">Brevo (Sendinblue)</td><td class="td-muted">Email marketing platform, automation, unlimited contacts</td><td class="td-muted">Brevo.com</td><td class="td-amt">₹1,500 - ₹3,000</td></tr>
+</tbody></table></div>
+
+<p class="bt" style="font-size:11.5px;color:var(--grey);margin-top:8px">Digimark Creative Agency does not resell or markup tool subscriptions. You subscribe directly with providers at their listed prices. We provide setup, configuration, and ongoing management as part of our retainer.</p>
+
+<h2 class="sec">D. Total Monthly Investment Summary</h2>
+<div class="tbl-wrap"><table>
+<thead><tr><th style="text-align:left">Component</th><th style="text-align:right">Month 1</th><th style="text-align:right">Months 2-6</th></tr></thead>
+<tbody>
+<tr><td class="td-bold">Digimark Creative Agency Retainer (All Services)</td><td class="td-amt">₹88,000</td><td class="td-amt">₹88,000</td></tr>
+<tr><td class="td-bold">Ad Budgets (Paid to Platforms)</td><td class="td-amt">₹1,50,000</td><td class="td-amt">₹1,50,000</td></tr>
+<tr><td class="td-bold">Tool Subscriptions (AiSensy + Brevo)</td><td class="td-amt">₹4,500 - ₹8,000</td><td class="td-amt">₹4,500 - ₹8,000</td></tr>
+<tr><td class="td-total">Total Monthly Investment</td><td class="td-total">₹2,42,500 - ₹2,46,000</td><td class="td-total">₹2,42,500 - ₹2,46,000</td></tr>
+</tbody></table></div>
+
+<div class="callout teal">
+<strong>Payment Terms</strong>
+Monthly retainer invoiced at the start of each month, payable within 7 days. Ad budgets managed directly through your platform accounts (Google Ads, Meta Business Manager, LinkedIn Campaign Manager) — you maintain full control and visibility. Tool subscriptions billed directly by providers to your payment method.
+</div>
+
+<h2 class="sec">E. What's NOT Included (Available as Add-Ons)</h2>
+<ul class="bul">
+><strong>Graphic Design & Video Production:</strong> Custom infographics, animated videos, professional photoshoots — quoted separately based on requirements.</li>
+><strong>Website Redesign/Development:</strong> Major website overhaul, new page builds beyond landing pages — quoted separately if needed.</li>
+><strong>Influencer Marketing:</strong> Healthcare influencer partnerships, paid collaborations — managed separately with transparent cost pass-through.</li>
+><strong>PR Agency Services:</strong> Press release distribution to wire services (PRNewswire, BusinessWire) — we write releases, but distribution is quoted separately.</li>
+</ul>
+
+</div>
+
+<div class="section">
+<h1 class="sec">6. Why Digimark Creative Agency?</h1>
+
+<div class="why-grid">
+<div class="why-card">
+<div class="wc-title">🎯 Healthcare Marketing Expertise</div>
+<div class="wc-body">We understand medical tourism decision journeys — high-consideration, trust-driven, cost-sensitive. Every strategy is built for patient acquisition, not vanity metrics.</div>
+</div>
+<div class="why-card">
+<div class="wc-title">📊 Performance-First Approach</div>
+<div class="wc-body">No fluff. Every campaign, every post, every page is optimized for one outcome: qualified patient inquiries that convert into bookings.</div>
+</div>
+<div class="why-card">
+<div class="wc-title">🔍 Technical SEO Foundation</div>
+<div class="wc-body">Most agencies skip technical audits. We start there — Core Web Vitals, schema markup, site architecture — because traffic without rankings is impossible.</div>
+</div>
+<div class="why-card">
+<div class="wc-title">🤝 Transparent Pricing</div>
+<div class="wc-body">Fixed monthly retainer. No commission on ad spend. No hidden markups on tools. You know exactly what you pay for, every month.</div>
+</div>
+<div class="why-card">
+<div class="wc-title">📈 Data-Driven Decisions</div>
+<div class="wc-body">Weekly performance dashboards, monthly strategy reviews, full access to all analytics. Every decision backed by numbers, not guesswork.</div>
+</div>
+<div class="why-card">
+<div class="wc-title">🚀 Integrated Ecosystem</div>
+<div class="wc-body">SEO, paid ads, social media, email, WhatsApp — all working together. Every touchpoint reinforces the others. No siloed campaigns.</div>
+</div>
+</div>
+
+<h2 class="sec">What Makes This Engagement Different</h2>
+<ul class="bul">
+><strong>You Own Everything:</strong> All ad accounts, content, analytics, subscriber lists, automation workflows — 100% owned by MedicoExperts. We build your assets, not ours.</li>
+><strong>No Long-Term Lock-In:</strong> This is a 6-month engagement with mutual review at the end. If results don't meet expectations, you're free to pause or adjust. No 12-month contracts.</li>
+><strong>Active Communication:</strong> Weekly email updates, bi-weekly check-in calls, monthly strategy reviews, and a dedicated Slack/WhatsApp channel for real-time questions.</li>
+><strong>Continuous Optimization:</strong> We don't "set and forget." Every month we refine based on what's working — reallocating budgets, testing new channels, improving creatives.</li>
+</ul>
+
+</div>
+
+<div class="section">
+<h1 class="sec">7. Expected Outcomes & Success Metrics</h1>
+
+<h2 class="sec">Month 3 Milestones</h2>
+<ul class="bul">
+><strong>SEO:</strong> 20-30 keywords ranking in top 3 pages, 50-80% increase in organic traffic, Core Web Vitals passing on mobile</li>
+><strong>Paid Ads:</strong> 1,500-2,000 website clicks/month, 40-60 qualified leads, CPA under ₹4,000</li>
+><strong>Social Media:</strong> 2,000+ Instagram followers, 1,500+ LinkedIn followers, 15-20% engagement rate</li>
+><strong>Email/WhatsApp:</strong> 100+ leads enrolled in nurture sequences, 25-30% open rates, 8-12% click rates</li>
+</ul>
+
+<h2 class="sec">Month 6 Targets</h2>
+<ul class="bul">
+><strong>SEO:</strong> 40-50 keywords in top 10, 150-200% organic traffic increase, 10-15 high-quality backlinks, DA 35-40</li>
+><strong>Paid Ads:</strong> 3,000-3,500 clicks/month, 100-120 qualified leads, CPA under ₹3,500, 8-12% conversion rate on landing pages</li>
+><strong>Social Media:</strong> 5,000+ Instagram followers, 3,000+ LinkedIn followers, 2-3 viral posts/month (10K+ reach)</li>
+><strong>Overall:</strong> 250-300 total qualified leads/month (organic + paid + social), 15-20% improvement in lead-to-patient conversion rate</li>
+</ul>
+
+<div class="callout dark">
+<strong>Success Definition</strong>
+Success = qualified patient inquiries that convert into consultations and bookings. We track full-funnel metrics: impressions → clicks → leads → consultations → bookings. Monthly reporting includes cost-per-lead, cost-per-consultation, and revenue attribution by channel.
+</div>
+
+</div>
+
+<div class="section">
+<h1 class="sec">8. Next Steps & Timeline</h1>
+
+<h2 class="sec">If You're Ready to Proceed</h2>
+<div class="tbl-wrap"><table>
+<thead><tr><th style="width:100px">Step</th><th>Action</th><th>Timeline</th></tr></thead>
+<tbody>
+<tr><td class="td-bold">Step 1</td><td class="td-muted">Review proposal, schedule alignment call to clarify any questions, finalize scope and commercial terms</td><td class="td-green">Week 1</td></tr>
+<tr><td class="td-bold">Step 2</td><td class="td-muted">Sign service agreement, onboard team, grant access to website, analytics, ad accounts, social profiles</td><td class="td-green">Week 1-2</td></tr>
+<tr><td class="td-bold">Step 3</td><td class="td-muted">Complete technical audit, keyword research, competitor analysis, finalize 90-day execution plan</td><td class="td-amber">Week 2-3</td></tr>
+<tr><td class="td-bold">Step 4</td><td class="td-muted">Begin execution — SEO fixes, content creation, ad campaign setup, social media calendar, automation workflows</td><td class="td-amber">Week 3-4</td></tr>
+<tr><td class="td-bold">Step 5</td><td class="td-muted">Launch campaigns live, monitor daily performance, weekly optimization, bi-weekly check-in calls</td><td class="td-green">Month 2 onward</td></tr>
+<tr><td class="td-bold">Step 6</td><td class="td-muted">Month 6 comprehensive review — evaluate outcomes, ROI analysis, decide on next phase (continue, pause, or scale)</td><td class="td-amber">Month 6</td></tr>
+</tbody></table></div>
+
+<h2 class="sec">Onboarding Requirements (From MedicoExperts)</h2>
+<ul class="bul">
+><strong>Website Access:</strong> WordPress/CMS admin credentials, hosting cPanel/FTP if available, Google Analytics & Search Console admin access</li>
+><strong>Ad Platforms:</strong> Admin access to Google Ads account, Meta Business Manager, LinkedIn Campaign Manager (we help set up if not existing)</li>
+><strong>Social Media:</strong> Admin access to Instagram, Facebook Page, LinkedIn Company Page, YouTube channel</li>
+><strong>Brand Assets:</strong> Logo files (PNG, SVG), brand colors, fonts, photography library, patient testimonial videos (if available)</li>
+><strong>Content Resources:</strong> Access to doctor profiles, hospital credentials, treatment details, pricing guides (for internal reference)</li>
+><strong>Stakeholder Availability:</strong> 1-2 key contacts for weekly sync, approval workflows for content, ad creatives, and landing pages</li>
+</ul>
+
+</div>
+
+<div class="review-box">
+<h2>📅 6-Month Engagement & Mutual Review</h2>
+<p>This proposal covers the <strong>first 6-month engagement period</strong>. At the end of Month 6, both MedicoExperts and Digimark Creative Agency will sit together for a structured review:</p>
+<p>✅ Evaluate campaign performance against agreed KPIs<br>
+✅ Analyze what worked, what didn't, and why<br>
+✅ Review ROI and cost-per-acquisition across all channels<br>
+✅ Decide the path forward: continue, scale, adjust scope, or pause</p>
+<p>The revised scope, pricing, and strategy for the next engagement term will be <strong>mutually agreed upon by both parties</strong> based on real results, campaign data, and evolving business objectives. This ensures the partnership always delivers measurable value for MedicoExperts.</p>
+</div>
+
+<div class="section">
+<h1 class="sec">9. Investment Summary</h1>
+
+<div class="tbl-wrap"><table>
+<thead><tr><th style="text-align:left">Investment Component</th><th style="text-align:right">Monthly Amount</th><th style="text-align:right">6-Month Total</th></tr></thead>
+<tbody>
+<tr><td class="td-bold">Digimark Creative Agency Retainer<br><span class="td-muted" style="font-size:10.5px">SEO, Content, Social, Paid Ads Management, Email, WhatsApp Automation</span></td><td class="td-amt">₹88,000</td><td class="td-amt">₹5,28,000</td></tr>
+<tr><td class="td-bold">Ad Budgets (Paid to Platforms)<br><span class="td-muted" style="font-size:10.5px">Google ₹65K + Meta ₹55K + LinkedIn ₹30K</span></td><td class="td-amt">₹1,50,000</td><td class="td-amt">₹9,00,000</td></tr>
+<tr><td class="td-bold">Tool Subscriptions (AiSensy + Brevo)<br><span class="td-muted" style="font-size:10.5px">Paid directly to providers</span></td><td class="td-amt">₹4,500 - ₹8,000</td><td class="td-amt">₹27,000 - ₹48,000</td></tr>
+<tr><td class="td-total">Total 6-Month Investment</td><td class="td-total"></td><td class="td-total">₹14,55,000 - ₹14,76,000</td></tr>
+</tbody></table></div>
+
+<div class="callout dark">
+<strong>What You Get for This Investment</strong>
+<ul class="bul" style="margin-top:10px;color:#8ad8a8">
+>Comprehensive SEO overhaul — technical fixes, content strategy, backlink building, local optimization</li>
+>15-20 new treatment landing pages optimized for high-intent keywords</li>
+>4-6 SEO blog posts/month (24-36 articles over 6 months)</li>
+>Multi-platform paid advertising with 18,000-20,000 website clicks over 6 months</li>
+>Daily social media management across Instagram, LinkedIn, Facebook, YouTube</li>
+>Automated WhatsApp and email nurture sequences for every lead</li>
+>Weekly performance reports, monthly strategy reviews, dedicated support channel</li>
+>Expected outcome: 250-300 qualified leads/month by Month 6, 150-200% organic traffic growth, 40-50 keywords in top 10</li>
+</ul>
+</div>
+
+</div>
+<div class="section">
+<h1 class="sec">10. Frequently Asked Questions</h1>
+
+<h3 class="sec">Q: Why do you charge a fixed retainer instead of a percentage of ad spend?</h3>
+<p class="bt">Percentage-based pricing creates a conflict of interest — agencies earn more when you spend more, regardless of performance. Our fixed retainer aligns our incentives with yours: we succeed when you get results, not when budgets increase. This ensures we optimize for efficiency, not just spend.</p>
+
+<h3 class="sec">Q: What if the recommended ad budget doesn't work for our cash flow?</h3>
+<p class="bt">The ₹1,50,000/month ad budget is a recommendation based on competitive benchmarks and expected ROI. We can start with a lower budget (minimum ₹80,000/month) and scale up as we prove performance. However, medical tourism is competitive — lower budgets mean fewer clicks, longer time to results.</p>
+
+<h3 class="sec">Q: Can we pause the engagement after 3 months if results aren't meeting expectations?</h3>
+<p class="bt">While this is structured as a 6-month engagement, we include a performance checkpoint at Month 3. If results are significantly below agreed KPIs and we cannot identify a clear path to improvement, we can mutually agree to pause or adjust the scope. We believe in earning your business every month, not locking you into underperforming contracts.</p>
+
+<h3 class="sec">Q: How do you measure success? What are the key KPIs?</h3>
+<p class="bt">Primary KPIs: <strong>(1) Qualified leads per month</strong> (from all channels), <strong>(2) Cost per lead</strong> (target: under ₹3,500 by Month 6), <strong>(3) Lead-to-consultation conversion rate</strong>, <strong>(4) Organic traffic growth</strong>, <strong>(5) Keyword rankings in top 10</strong>. Monthly reports include full-funnel metrics from impressions to patient bookings (when data is available).</p>
+
+<h3 class="sec">Q: What happens to all the content, ads, and assets you create?</h3>
+<p class="bt">You own 100% of everything we create — landing pages, blog posts, ad creatives, email sequences, automation workflows, social media content. If the engagement ends, you retain full access and ownership. We don't hold your assets hostage.</p>
+
+<h3 class="sec">Q: Do you work with our competitors?</h3>
+<p class="bt">We do not work with direct competitors in the same geographic market simultaneously. For the duration of this engagement, we will not take on other medical tourism facilitators or virtual hospital platforms targeting India + international patients without your prior consent.</p>
+
+<h3 class="sec">Q: What if we already have an in-house marketing team?</h3>
+<p class="bt">We work collaboratively with in-house teams. Think of us as an extension of your marketing department — we bring specialized SEO, paid ads, and automation expertise. Your team retains strategic control, brand oversight, and final approvals. We execute, optimize, and report.</p>
+
+<h3 class="sec">Q: How quickly will we see results?</h3>
+<p class="bt">Paid ads deliver immediate traffic (Week 1-2). Social media engagement builds over 4-6 weeks. SEO takes 8-12 weeks to show meaningful ranking improvements (Google's algorithm update cycles). Full ROI visibility typically emerges by Month 4-5. We provide weekly dashboards so you see progress continuously, not just at the end.</p>
+
+<h3 class="sec">Q: What if our website needs major technical changes or redesign?</h3>
+<p class="bt">We include essential technical SEO fixes (Core Web Vitals, schema markup, heading structure, accessibility). If a full redesign or platform migration is needed, we can scope that separately. However, most SEO and CRO improvements can be achieved through incremental optimizations without a complete rebuild.</p>
+
+<h3 class="sec">Q: Can you help us get patient testimonials and case studies?</h3>
+<p class="bt">Yes — as part of content strategy, we can design patient interview questionnaires, video testimonial scripts, and case study templates. However, patient outreach, consent collection, and HIPAA/data privacy compliance remain MedicoExperts' responsibility. We shape the stories; you source the participants.</p>
+
+</div>
+
+<div class="section">
+<h1 class="sec">11. Final Thoughts</h1>
+
+<p class="bt">MedicoExperts has built an impressive clinical foundation — <strong>10,200+ patients served, 300 network hospitals, NABH accreditation, 95% satisfaction, presence in 17 countries</strong>. The quality of care is world-class. The challenge is visibility.</p>
+
+<p class="bt">Right now, MedicoExperts ranks <strong>#1.2M globally</strong> while competitors with similar offerings rank in the top 10,000-15,000. That's not a reflection of your service quality — it's a digital marketing gap. And gaps can be closed.</p>
+
+<p class="bt">This proposal outlines a <strong>comprehensive, data-driven, performance-focused 6-month strategy</strong> to:</p>
+
+<ul class="bul">
+>Fix critical technical SEO issues blocking your organic growth</li>
+>Create 15-20 high-converting treatment landing pages optimized for search</li>
+>Publish 24-36 SEO-optimized articles to establish topical authority</li>
+>Launch multi-channel paid advertising to capture active searchers (Google, Meta, LinkedIn)</li>
+>Build a consistent social media presence that showcases patient success stories</li>
+>Automate lead follow-up via WhatsApp and email to maximize conversion rates</li>
+</ul>
+
+<p class="bt">The outcome: <strong>250-300 qualified patient inquiries per month by Month 6</strong>, a 150-200% increase in organic traffic, and a digital presence that matches the caliber of your clinical services.</p>
+
+<p class="bt">This isn't a "set it and forget it" engagement. We optimize weekly, review monthly, and adjust continuously based on what the data tells us. You'll have full transparency into every campaign, every rupee spent, and every lead generated.</p>
+
+<p class="bt">If you're ready to close the digital visibility gap and turn MedicoExperts into a market leader online — not just clinically — let's start the conversation.</p>
+
+<div style="margin-top:40px;padding:30px;background:linear-gradient(135deg,#0d2a1e,#071410);border-radius:16px;text-align:center;border:1px solid #1a5a3a">
+<div style="font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--t3);margin-bottom:12px">Ready to Get Started?</div>
+<div style="font-size:24px;font-weight:800;color:#fff;margin-bottom:16px;font-family:'Syne',sans-serif">Let's Schedule an Alignment Call</div>
+<div style="font-size:14px;color:#8ad0b0;margin-bottom:24px">Discuss your goals, clarify questions, finalize the roadmap, and kick off Month 1</div>
+<div style="display:inline-block;background:var(--t2);color:#fff;padding:14px 32px;border-radius:8px;font-weight:700;font-size:15px;cursor:pointer">Contact: [Your Contact Details]</div>
+</div>
+
+</div>
+
+</div><!-- End body-wrap -->
+
+<div class="doc-footer">
+<div>Digimark Creative Agency  •  Digital Marketing Proposal 2026  •  MedicoExperts</div>
+<div>Confidential • For Recipient's Use Only</div>
+</div>
+
+</div><!-- End page -->
+
+</body>
+</html>
